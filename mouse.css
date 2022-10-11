@@ -1,0 +1,21 @@
+
+@keyframes scroll {
+	0% {
+		transform: translateY(0);
+	}
+	30% {
+		transform: translateY(100px);
+	}
+}
+.mousescroll{
+    position: absolute;
+    transition: 5s;
+    transform: translateX(-100px);
+}
+.mousescroll-show{
+    transition: 1s;
+    transform: translateX(0px);
+}
+svg #wheel {
+	animation: scroll ease 1.5s infinite;
+}
