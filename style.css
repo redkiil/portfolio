@@ -6,8 +6,9 @@ body{
     width: 96px;
 }
 .container{
-    width: 1040px;
-    margin: auto;
+    box-sizing: border-box;
+    width: 100vw;
+    padding: 20px;
 }
 .header{
     margin-top: 50px;
@@ -40,6 +41,7 @@ body{
 }
 
 .project-container{
+    box-sizing: border-box;
     position: absolute;
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.05);
@@ -51,15 +53,13 @@ body{
     gap: 25px;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 1040px;
+    width: 100%;
     justify-content: center;
     align-items: normal;
     align-content: normal;
     padding: 10px;
     opacity: 0;
     transition: 1s;
-
-
 }
 .project-container a{
     text-decoration: none;
@@ -79,7 +79,6 @@ body{
     flex-grow: 1 0 33%;
     color: #FFF;
     font-family: 'Rajdhani', sans-serif;
-
 }
 .project-img{
     width: 100%;
@@ -108,3 +107,37 @@ body{
     cursor: pointer;
     transform: translateY(-2px);
 }
+@media screen and (max-width: 600px) {
+    .menu {
+        display: none;
+        position: fixed;
+        flex-direction: column;
+        height: 100%;
+        gap: 60px;
+        top:0;
+        right: 0;
+        padding: 50px 0px;
+        font-size: 3rem;
+        z-index: 10;
+        background-color: red;
+    }
+    .close-menu{
+        font-size: 10rem;
+        
+    }
+    .mobile-menu{
+        display: flex;
+        font-size: 3rem;
+    }
+    .project-container{
+        position: initial;
+        opacity: 1;
+        flex-direction: column;
+        margin: 100px 0px;
+        z-index: 0;
+
+    }
+    .content-container{
+        height: fit-content;
+    }
+  }
