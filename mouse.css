@@ -9,6 +9,7 @@
 }
 .mousescroll{
     position: absolute;
+	top: 50%;
     transition: 5s;
     transform: translateX(-100px);
 }
