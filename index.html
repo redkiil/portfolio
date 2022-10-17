@@ -7,44 +7,20 @@
     <title>Augusto Ferreira</title>
     <link rel="stylesheet" href="style.css" >
     <link rel="stylesheet" href="mouse.css" >
-    <link rel="stylesheet" href="modal.css" >
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Rajdhani:wght@500&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="code.js" type="text/javascript"></script>
     <script src="https://kit.fontawesome.com/81e278144d.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <div class="container">
-        <section class="modal">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <img src="./images/me.jpg" class="me-img">
-                <p>Olá eu sou Augusto, Eu sou um programador Fullstack JR, em busca de uma oportunidade.</p>
-
-                <p>Fascinado e curioso quando o Assunto é tecnologia, sempre querendo saber como algo funciona e porque?</p>
-                    
-                <p>Tenho vários projetos pessoais, em algumas tecnologia que pode ser conferidas abaixo :)</p>
-                <div class="tecs">
-                    <img src="images/tecs/csharp.png" class="tecs-img">
-                    <img src="images/tecs/github.png" class="tecs-img">
-                    <img src="images/tecs/js.png" class="tecs-img">
-                    <img src="images/tecs/angular.png" class="tecs-img">
-
-                    <img src="images/tecs/mysql.png" class="tecs-img">
-                    <img src="images/tecs/net.png" class="tecs-img">
-                    <img src="images/tecs/node.png" class="tecs-img">
-
-                </div>
-            </div>
-        </section>
         <section class="header">
             <img src="images/logo.png" class="logo">
             <nav class="menu">
                 <span class="close-menu">&times;</span>
-                <a class="btn-whoiam">QUEM SOU?</a>
                 <a href="https://docs.google.com/document/d/1Pifx7h3uIj47M3-QFFtow1uNrq1OlnzeiprS7CRd-gY/edit?usp=sharing" target="_blank">CURRICULO</a>
                 <a href="mailto:dev.augusto.ferreira@gmail.com">CONTATO</a>
             </nav>
@@ -52,7 +28,37 @@
                 <i class="fa-solid fa-bars burger-btn"></i>
             </nav>
         </section>
+        <section class="me">
+            <h1 class="about-text">SOBRE</h1>
+            <div class="img-container">
+                <img src="./images/me.jpg" class="me-img">
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/august0-ferreira/" target="_blank"><i class="fa-brands fa-linkedin icons"></i></a>
+                    <a href="https://github.com/redkiil" target="_blank"><i class="fa-brands fa-github icons"></i></a>
+                </div> 
+            </div>
+            <span>
+                <p><span class="hey">Olá</span>, eu sou Augusto, Eu sou um programador Fullstack JR, em busca de uma oportunidade.</p>
+
+                <p>Fascinado e curioso quando o Assunto é tecnologia, sempre querendo saber como algo funciona e porque?</p>
+                    
+                <p>Tenho vários projetos pessoais, em algumas tecnologia que pode ser conferidas abaixo :)</p>
+            </span>
+            
+            <div class="tecs">
+                <!-- <img src="images/tecs/csharp.png" class="tecs-img">
+                <img src="images/tecs/github.png" class="tecs-img">
+                <img src="images/tecs/js.png" class="tecs-img">
+                <img src="images/tecs/angular.png" class="tecs-img">
+
+                <img src="images/tecs/mysql.png" class="tecs-img">
+                <img src="images/tecs/net.png" class="tecs-img">
+                <img src="images/tecs/node.png" class="tecs-img"> -->
+            </div>
+        </section>
         <section class="content-container">
+            <h1 class="projects-text">PROJETOS</h1>
+
             <div class="project-container" data-project="1">
                 <div class="project--img-container">
                     <img src="./images/project1.png" class="project-img">
@@ -111,8 +117,7 @@
             </div>
         </section>
         <section class="footer">
-            <a href="https://www.linkedin.com/in/august0-ferreira/" target="_blank"><i class="fa-brands fa-linkedin icons"></i></a>
-            <a href="https://github.com/redkiil" target="_blank"><i class="fa-brands fa-github icons"></i></a>
+            
             <p>Under construction.</p>
         </section>
     </div>
