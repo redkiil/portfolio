@@ -49,10 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 5000);
     }else{
 
-        let mobileMenu = document.querySelector('.mobile-menu')
-        let closeMenu = document.querySelector('.close-menu')
-        let menu = document.querySelector('.menu')
-        let button = document.querySelector(".btn-whoiam")
+
 
         mobileMenu.onclick = function(){
             menu.style.display = "flex"
