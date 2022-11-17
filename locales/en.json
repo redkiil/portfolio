@@ -1,0 +1,34 @@
+{
+    "nav": {
+      "contact": "CONTACT",
+      "resume": "RESUME"
+    },
+    "about": {
+      "title": "ABOUT ME",
+      "hey": "Hey",
+      "firstParagraph": ", I am Augusto, A JR Software Developer, seeking a new opportunity.",
+      "secondParagraph": "Fascinating and curious, when it comes to technology, Always wanting how the things works and why?",
+      "thirdParagraph": "I have a lot of personal projects, in multiple technologies with can be seen below :)"
+    },
+    "project": {
+      "seInGit": "See this project on Github",
+      "title": "PROJECTS"
+    },
+    "project1":{
+      "title": "Autocad Plugin",
+      "firstParagraph": "This project has been made for helping automate some function in Autocad, to manage lines of Sugar Cane Planting.",
+      "tecs": "Technologies: C#, AutoDesk ObjectARX, AutoLISP"
+    },"project2":{
+      "title": "API Backend .NET",
+      "firstParagraph": "Technical Test, That I made for a position of Backend Developer, using .NET ecosystem, API is documented using Swagger, Authentication by JWT, Listing, Pagination, Relationship between tables in database etc...",
+      "tecs": "Technologies: C#, .NET, SWAGGER, Docker, MySQL"
+    },"project3":{
+      "title": "Dashboard Angular",
+      "firstParagraph": "Project using Angular front-end framework, creating components, pipes, etc. Using Mapbox library, generating map and using 3D resources with ThreeJS, using ChartJS to create interactive and dynamic Charts.",
+      "tecs": "Technologies: Angular, ThreeJS, Mapbox, ChartJS, WebSocket"
+    },"technologies": {
+      "title": "TECHNOLOGIES"
+    },"footer":{
+      "title": "Under construction."
+    }
+}

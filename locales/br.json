@@ -1,0 +1,34 @@
+{
+  "nav": {
+    "contact": "CONTATO",
+    "resume": "CURRICULO"
+  },
+  "about": {
+    "title": "SOBRE MIN",
+    "hey": "Olá",
+    "firstParagraph": ", eu sou Augusto, Eu sou um Programador Fullstack JR, em busca de uma oportunidade.",
+    "secondParagraph": "Fascinado e curioso quando o Assunto é tecnologia, sempre querendo saber como algo funciona e por quê?",
+    "thirdParagraph": "Tenho vários projetos pessoais, em algumas tecnologias que pode ser conferidas abaixo :)"
+  },
+  "project": {
+    "seInGit": "Ver este projeto no Github",
+    "title": "PROJETOS"
+  },
+  "project1":{
+    "title": "Autocad Plugin",
+    "firstParagraph": "Projeto feito para automatizar criação de linhas de MEIOSE, no plantio de Cana de Açúcar. ",
+    "tecs": "Tecnologias: C#, AutoDesk ObjectARX, AutoLISP"
+  },"project2":{
+    "title": "API Backend .NET",
+    "firstParagraph": "Teste técnico feito para uma vaga de Desenvolvedor Backend, Utilizando plataforma .NET, API documentada utilizando Swagger, Autenticação utilizando JWT, Listagem, paginação, CRUD. Relacionamentos entre tabelas no banco de dados.",
+    "tecs": "Tecnologias: C#, .NET, SWAGGER, Docker, MySQL"
+  },"project3":{
+    "title": "Dashboard Angular",
+    "firstParagraph": "Projeto utilizando-se o framework front-end Angular, criando componentesl, pipes, etc.. Utilizando da biblioteca Mapbox, gerando mapa e utilizando recursos 3D com ThreeJS, usando ChartJS para criação de Charts interativos e dinâmicos.",
+    "tecs": "Tecnologias: Angular, ThreeJS, Mapbox, ChartJS, WebSocket"
+  },"technologies": {
+    "title": "TECNOLOGIAS"
+  },"footer":{
+    "title": "Em construção."
+  }
+}
