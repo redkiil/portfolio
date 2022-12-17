@@ -1,153 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Augusto Ferreira</title>
-    <link rel="stylesheet" href="style.css" >
-    <link rel="stylesheet" href="mouse.css" >
-    <meta name="viewport" content="width=device-width">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Rajdhani:wght@500&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
-    
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Augusto Ferreira</title>
+        <link rel="stylesheet" href="style.css" >
+        <link rel="stylesheet" href="mouse.css" >
+        <meta name="viewport" content="width=device-width">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Rajdhani:wght@500&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <i class="fa-solid fa-globe icons language-icon"></i>
+        <div class="container">
+            <section class="header">
+                <img src="images/logo.png" class="logo">
+                <nav class="menu">
+                    <span class="close-menu">&times;</span>
+                    <a href="https://docs.google.com/document/d/1Pifx7h3uIj47M3-QFFtow1uNrq1OlnzeiprS7CRd-gY/edit?usp=sharing" target="_blank" data-i18n="nav.resume">RESUME</a>
+                    <a href="mailto:dev.augusto.ferreira@gmail.com" data-i18n="nav.contact">CONTACT</a>
+                </nav>
+                <nav class="mobile-menu">
+                    <i class="fa-solid fa-bars burger-btn"></i>
+                </nav>
+            </section>
+            <section class="me">
+                <h1 class="about-text" data-i18n="about.title">ABOUT ME</h1>
+                <div class="img-container">
+                    <img src="./images/me.jpg" class="me-img">
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/august0-ferreira/" target="_blank"><i class="fa-brands fa-linkedin icons"></i></a>
+                        <a href="https://github.com/redkiil" target="_blank"><i class="fa-brands fa-github icons"></i></a>
+                    </div> 
+                </div>
+                <span>
+                    <p data-i18n="[append]about.firstParagraph"></p>
 
-</head>
-<body>
-    <div class="container">
-        <section class="header">
-            <img src="images/logo.png" class="logo">
-            <nav class="menu">
-                <span class="close-menu">&times;</span>
-                <a href="https://docs.google.com/document/d/1Pifx7h3uIj47M3-QFFtow1uNrq1OlnzeiprS7CRd-gY/edit?usp=sharing" target="_blank" data-i18n="nav.resume">RESUME</a>
-                <a href="mailto:dev.augusto.ferreira@gmail.com" data-i18n="nav.contact">CONTACT</a>
-            </nav>
-            <nav class="mobile-menu">
-                <i class="fa-solid fa-bars burger-btn"></i>
-            </nav>
-        </section>
-        <section class="me">
-            <h1 class="about-text" data-i18n="about.title">ABOUT ME</h1>
-            <div class="img-container">
-                <img src="./images/me.jpg" class="me-img">
-                <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/august0-ferreira/" target="_blank"><i class="fa-brands fa-linkedin icons"></i></a>
-                    <a href="https://github.com/redkiil" target="_blank"><i class="fa-brands fa-github icons"></i></a>
-                </div> 
-            </div>
-            <span>
-                <p data-i18n="[append]about.firstParagraph"><span class="hey" data-i18n="about.hey">Hey</span></p>
-
-                <p data-i18n="[append]about.secondParagraph"></p>
+                    <p data-i18n="[append]about.secondParagraph"></p>
+                        
+                    <p data-i18n="[append]about.thirdParagraph"></p>
+                </span>
+            </section>
+            <section class="content-container">
+                <h1 class="project-title" data-i18n="project.title"></h1>
+                <div class="project-container" data-project="2">
+                    <div class="project--img-container" >
+                        <img src="./images/project2.png" class="project-img">
+                    </div>
+                    <div class="project-text">
+                        <h3 data-i18n="project2.title"> 
+                            API Backend .NET
+                        </h3>
+                        <p data-i18n="project2.firstParagraph" class="project-first-paragraph">
+                            Teste técnico feito para uma vaga de Desenvolvedor Backend, Utilizando plataforma .NET, API documentada utilizando Swagger, Autenticação utilizando JWT,
+                            Listagem, paginação, CRUD. Relacionamentos entre tabelas no banco de dados.
+                        </p>
+                        <p data-i18n="project2.tecs" class="project-tecnologies-paragraph">
+                            Tecnologias: C#, .NET, SWAGGER, Docker, MySQL
+                        </p>
+                        <a href="https://github.com/redkiil/cda-penal-codes" target="_blank" data-i18n="project.seInGit">Ver codigo fonte no Github</a>
+                    </div>
                     
-                <p data-i18n="[append]about.thirdParagraph"></p>
-            </span>
-        </section>
-        <section class="content-container">
-            <h1 class="project-title" data-i18n="project.title"></h1>
-            <div class="project-container" data-project="2">
-                <div class="project--img-container" >
-                    <img src="./images/project2.png" class="project-img">
                 </div>
-                <div class="project-text">
-                    <h3 data-i18n="project2.title"> 
-                        API Backend .NET
-                    </h3>
-                    <p data-i18n="project2.firstParagraph" class="project-first-paragraph">
-                        Teste técnico feito para uma vaga de Desenvolvedor Backend, Utilizando plataforma .NET, API documentada utilizando Swagger, Autenticação utilizando JWT,
-                        Listagem, paginação, CRUD. Relacionamentos entre tabelas no banco de dados.
-                    </p>
-                    <p data-i18n="project2.tecs" class="project-tecnologies-paragraph">
-                        Tecnologias: C#, .NET, SWAGGER, Docker, MySQL
-                    </p>
-                    <a href="https://github.com/redkiil/cda-penal-codes" target="_blank" data-i18n="project.seInGit">Ver codigo fonte no Github</a>
+                <div class="project-container" data-project="1">
+                    <div class="project--img-container">
+                        <img src="./images/project1.png" class="project-img">
+                    </div>
+                    <div class="project-text">
+                        <h3 data-i18n="project1.title">
+                            Autocad Plugin
+                        </h3>
+                        <p data-i18n="project1.firstParagraph" class="project-first-paragraph">
+                            Projeto feito para automatizar criação de linhas de MEIOSE, no plantio de Cana de Açúcar. 
+                        </p>
+                        <p data-i18n="project1.tecs" class="project-tecnologies-paragraph">
+                            Tecnologias: C#, AutoDesk ObjectARX, AutoLISP
+                        </p>
+                        <a href="https://github.com/redkiil/my-scripts" target="_blank" data-i18n="project.seInGit">Ver codigo fonte no Github</a>
+                    </div>
                 </div>
-                
-            </div>
-            <div class="project-container" data-project="1">
-                <div class="project--img-container">
-                    <img src="./images/project1.png" class="project-img">
+                <div class="project-container" data-project="3">
+                    <div class="project--img-container" >
+                        <img src="./images/project3.png" class="project-img">
+                    </div>
+                    <div class="project-text">
+                        <h3 data-i18n="project3.title">
+                            Dashboard Angular
+                        </h3>
+                        <p data-i18n="project3.firstParagraph" class="project-first-paragraph">
+                            Projeto utilizando-se o framework front-end Angular, criando componentesl, pipes, etc.. Utilizando da biblioteca Mapbox, gerando mapa e utilizando recursos
+                            3D com ThreeJS, usando ChartJS para criação de Charts interativos e dinâmicos.
+                        </p>
+                        <p data-i18n="project3.tecs" class="project-tecnologies-paragraph">
+                            Tecnologias: Angular, ThreeJS, Mapbox, ChartJS, WebSocket
+                        </p >
+                        <a href="https://github.com/redkiil/dashboard" target="_blank" data-i18n="project.seInGit">Ver codigo fonte no Github</a>
+                    </div>
                 </div>
-                <div class="project-text">
-                    <h3 data-i18n="project1.title">
-                        Autocad Plugin
-                    </h3>
-                    <p data-i18n="project1.firstParagraph" class="project-first-paragraph">
-                        Projeto feito para automatizar criação de linhas de MEIOSE, no plantio de Cana de Açúcar. 
-                    </p>
-                    <p data-i18n="project1.tecs" class="project-tecnologies-paragraph">
-                        Tecnologias: C#, AutoDesk ObjectARX, AutoLISP
-                    </p>
-                    <a href="https://github.com/redkiil/my-scripts" target="_blank" data-i18n="project.seInGit">Ver codigo fonte no Github</a>
-                </div>
-            </div>
-            <div class="project-container" data-project="3">
-                <div class="project--img-container" >
-                    <img src="./images/project3.png" class="project-img">
-                </div>
-                <div class="project-text">
-                    <h3 data-i18n="project3.title">
-                        Dashboard Angular
-                    </h3>
-                    <p data-i18n="project3.firstParagraph" class="project-first-paragraph">
-                        Projeto utilizando-se o framework front-end Angular, criando componentesl, pipes, etc.. Utilizando da biblioteca Mapbox, gerando mapa e utilizando recursos
-                        3D com ThreeJS, usando ChartJS para criação de Charts interativos e dinâmicos.
-                    </p>
-                    <p data-i18n="project3.tecs" class="project-tecnologies-paragraph">
-                        Tecnologias: Angular, ThreeJS, Mapbox, ChartJS, WebSocket
-                    </p >
-                    <a href="https://github.com/redkiil/dashboard" target="_blank" data-i18n="project.seInGit">Ver codigo fonte no Github</a>
-                </div>
-            </div>
-        </section>
-        <section class="tecs">
-            <h1 class="tecs-text" data-i18n="technologies.title">TECNOLOGIAS</h1>
-            <ul class="tecs-container">
-                <li>HTML <img src="./images/tecs/html.png"></li>
-                <li>CSS <img src="./images/tecs/css.png"></li>
-                <li>JAVASCRIPT <img src="./images/tecs/js.png"></li>
-                <li>TYPESCRIPT <img src="./images/tecs/ts.png"></li>
-                <li>C# <img src="./images/tecs/csharp.png"></li>
-                <li>ANGULAR <img src="./images/tecs/angular.png"></li>
-                <li>MYSQL <img src="./images/tecs/mysql.png"></li>
-                <li>NODEJS <img src="./images/tecs/node.png"></li>
-                <li>.NET <img src="./images/tecs/net.png"></li>
-            </ul>
-        </section>
-        <section class="footer">
-            <p data-i18n="footer.title">Under construction.</p>
-        </section>
-    </div>
-    <div class="mousescroll">
-        <svg width="40px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-            <path id="wheel" d="M123.359,79.775l0,72.843" style="fill:none;stroke:#fff;stroke-width:20px;"/>
-            <path id="mouse" d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z" style="fill:none;stroke:#fff;stroke-width:20px;"/>
-        </svg>
-    </div>
-</body>
-<script src="code/main.js" type="module"></script>
-<script src="https://kit.fontawesome.com/81e278144d.js" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.22/i18next.min.js" ></script>
-<script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.1/i18nextHttpBackend.min.js"></script>
-<script src="../loc-i18next.min.js" ></script>
-<script>
-    i18next.use(i18nextHttpBackend).init({
-      languages: ['br','en'],
-      fallbackLng: 'en',
-      backend: {
-        loadPath: '../locales/{{lng}}.json'
-      }
-    }, function(err, t) {
-      localize = locI18next.init(i18next);
-      localize('.menu');
-      localize('.me');
-      localize('.content-container');
-      localize('.tecs');
-      localize('.footer');
+            </section>
+            <section class="tecs">
+                <h1 class="tecs-text" data-i18n="technologies.title">TECNOLOGIAS</h1>
+                <ul class="tecs-container">
+                    <li>HTML <img src="./images/tecs/html.png"></li>
+                    <li>CSS <img src="./images/tecs/css.png"></li>
+                    <li>JAVASCRIPT <img src="./images/tecs/js.png"></li>
+                    <li>TYPESCRIPT <img src="./images/tecs/ts.png"></li>
+                    <li>C# <img src="./images/tecs/csharp.png"></li>
+                    <li>ANGULAR <img src="./images/tecs/angular.png"></li>
+                    <li>MYSQL <img src="./images/tecs/mysql.png"></li>
+                    <li>NODEJS <img src="./images/tecs/node.png"></li>
+                    <li>.NET <img src="./images/tecs/net.png"></li>
+                </ul>
+            </section>
+            <section class="footer">
+                <p data-i18n="footer.title">Under construction.</p>
+            </section>
+        </div>
+        <div class="mousescroll">
+            <svg width="40px" height="100%" viewBox="0 0 247 390" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+                <path id="wheel" d="M123.359,79.775l0,72.843" style="fill:none;stroke:#fff;stroke-width:20px;"/>
+                <path id="mouse" d="M236.717,123.359c0,-62.565 -50.794,-113.359 -113.358,-113.359c-62.565,0 -113.359,50.794 -113.359,113.359l0,143.237c0,62.565 50.794,113.359 113.359,113.359c62.564,0 113.358,-50.794 113.358,-113.359l0,-143.237Z" style="fill:none;stroke:#fff;stroke-width:20px;"/>
+            </svg>
+        </div>
+    </body>
+    <script src="code/main.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/81e278144d.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/2.0.22/i18next.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.3.1/i18nextHttpBackend.min.js"></script>
+    <script src="../loc-i18next.min.js" ></script>
+    <script>
+        i18next.use(i18nextHttpBackend).init({
+        languages: ['br','en'],
+        fallbackLng: 'en',
+        backend: {
+            loadPath: '../locales/{{lng}}.json'
+        }
+        }, function(err, t) {
+        localize = locI18next.init(i18next);
+        localize('.menu');
+        localize('.me');
+        localize('.content-container');
+        localize('.tecs');
+        localize('.footer');
 
-    });
-    
-  </script>
+        });
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJT702GZ06"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SJT702GZ06');
+    </script>
 </html>
