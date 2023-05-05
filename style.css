@@ -208,7 +208,26 @@ body{
     display: none;
 }
 
-
+/* ICONS */
+.icons{
+    color: #FAF9F6;
+    font-size: 2rem;
+    padding: 30px 20px 0px 20px;
+    transition: .3s;
+}
+.icons:hover{
+    cursor: pointer;
+    color: #c01b21;
+}
+.language-icon{
+    position: absolute;
+    margin: 30px;
+    padding: 0px;
+    font-size: 1rem;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
 
 
 @media screen and (max-width: 600px) {
@@ -246,23 +265,7 @@ body{
     .me span{
         flex: 0 0 100%;
     }
+    body .language-icon{
+        display: none;
+    }
   }
-/* ICONS */
-.icons{
-    color: #FAF9F6;
-    font-size: 2rem;
-    padding: 30px 20px 0px 20px;
-    transition: .3s;
-}
-.icons:hover{
-    cursor: pointer;
-    color: #c01b21;
-}
-.language-icon{
-    position: absolute;
-    margin: 30px;
-    padding: 0px;
-    font-size: 1rem;
-    right: 0;
-    top: 0;
-}
